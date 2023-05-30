@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16.18.1
 
 # for node-canvas
 RUN apt update && apt install -y build-essential libcairo2-dev libpango1.0-dev \
